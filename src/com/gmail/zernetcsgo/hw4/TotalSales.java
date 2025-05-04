@@ -2,18 +2,13 @@ package com.gmail.zernetcsgo.hw4;
 
 public class TotalSales {
     public static void main(String[] args) {
-        String productName;
-        int quantity;
-        double price;
-        int days;
+        String  productName = "smartphone";
+        String currency = "EUR";
+        int quantity = 37;
+        double  price = 328.45;
+        int days  = 5;
         double totalSales;
         double averageDailySales;
-
-        String currency = "EUR";
-        productName = "smartphone";
-        quantity = 37;
-        price = 328.45;
-        days  = 5;
 
         totalSales = quantity * price;
         averageDailySales = totalSales / days;
