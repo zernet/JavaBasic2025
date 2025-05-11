@@ -1,4 +1,4 @@
-package com.gmail.zernetcsgo.HW5;
+package com.gmail.zernetcsgo.hw5;
 
 import java.util.Scanner;
 
